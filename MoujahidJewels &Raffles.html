@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive Partnership Agreement - MoujahidJewels</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            background: linear-gradient(135deg, #f5f5f5, #e0e0e0);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+            animation: gentleShift 20s ease-in-out infinite;
+        }
+        @keyframes gentleShift {
+            0%, 100% { background: linear-gradient(135deg, #f5f5f5, #e0e0e0); }
+            50% { background: linear-gradient(135deg, #e8e8e8, #d3d3d3); }
+        }
+        .container {
+            max-width: 900px;
+            width: 95%;
+            background: #ffffff;
+            border: 2px solid #D4AF37;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            display: none;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+            animation: softFloat 4s ease-in-out infinite;
+        }
+        @keyframes softFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+        .logo img {
+            max-width: 200px;
+            height: auto;
+        }
+        h1, h2 {
+            color: #D4AF37;
+            text-align: center;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            color: #000000;
+            line-height: 1.2;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 30px;
+            border-bottom: 1px solid #D4AF37;
+            padding-bottom: 5px;
+        }
+        p, li {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #fafafa;
+            border-radius: 8px;
+            border-left: 4px solid #D4AF37;
+            animation: fadeUp 1s ease-out;
+            opacity: 0;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeUp {
+            from { 
+                transform: translateY(30px); 
+                opacity: 0; 
+            }
+            to { 
+                transform: translateY(0); 
+                opacity: 1; 
+            }
+        }
+        .section:nth-child(1) { animation-delay: 0.9s; }
+        .section:nth-child(2) { animation-delay: 1.0s; }
+        .section:nth-child(3) { animation-delay: 1.6s; }
+        .section:nth-child(4) { animation-delay: 2.8s; }
+        .section:nth-child(5) { animation-delay: 1.0s; }
+        .section:nth-child(6) { animation-delay: 1.2s; }
+        .section:nth-child(7) { animation-delay: 1.4s; }
+        .section:nth-child(8) { animation-delay: 1.6s; }
+        .section:nth-child(9) { animation-delay: 1.8s; }
+        .section:nth-child(10) { animation-delay: 2.0s; }
+        .section:nth-child(11) { animation-delay: 2.2s; }
+        .section:nth-child(12) { animation-delay: 2.4s; }
+        .section:nth-child(13) { animation-delay: 2.6s; }
+        .section:nth-child(14) { animation-delay: 2.8s; }
+        .section:nth-child(15) { animation-delay: 3.0s; }
+        .section:nth-child(16) { animation-delay: 3.2s; }
+        .section:nth-child(17) { animation-delay: 3.4s; }
+        
+        .signature {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .signature div {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #fafafa;
+            border-radius: 8px;
+            border: 1px solid #D4AF37;
+            animation: fadeUp 1s ease-out 3.6s both;
+        }
+        .password-form {
+            text-align: center;
+            background: #ffffff;
+            border: 2px solid #D4AF37;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 90%;
+        }
+        input[type="password"] {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #D4AF37;
+            border-radius: 5px;
+            background: #f9f9f9;
+            color: #333;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background: #D4AF37;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background: #B8860B;
+        }
+        .error {
+            color: #8B0000;
+            margin-top: 10px;
+        }
+        hr {
+            border: none;
+            height: 1px;
+            background: #D4AF37;
+            margin: 20px 0;
+        }
+        
+        .expired-screen {
+            text-align: center;
+            background: #ffffff;
+            border: 2px solid #D4AF37;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 90%;
+            display: none;
+        }
+        .expired-screen h2 {
+            color: #8B0000;
+            margin-bottom: 20px;
+        }
+        .expired-screen p {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .global-timer {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #D4AF37;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            z-index: 10000;
+            display: none;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Timer avec format heure -->
+    <div id="global-timer" class="global-timer"></div>
+
+    <div id="expired-screen" class="expired-screen">
+        <h2>Document Expired</h2>
+        <p>This confidential document has expired and is no longer available for viewing.</p>
+        <p>The access period of 24 hours has elapsed since the first consultation.</p>
+        <p>Please contact the sender if you need authorized access.</p>
+    </div>
+
+    <div id="password-form" class="password-form">
+        <h2>Access Restricted</h2>
+        <p>Please enter the password to view the contract:</p>
+        <input type="password" id="password" placeholder="Enter password">
+        <button onclick="checkPassword()">Submit</button>
+        <div id="error" class="error"></div>
+    </div>
+
+    <div id="contract" class="container">
+        <div class="logo">
+            <img src="https://i.postimg.cc/zvqP57mR/Raffles-Hotels-Resorts-logo-svg.png" alt="MoujahidJewels Logo">
+        </div>
+        <h1>EXCLUSIVE<br>PARTNERSHIP AGREEMENT</h1>
+        <p><strong>Between:</strong></p>
+<p><strong>Raffles Hotel Doha</strong>, represented by the Executive Management Board</p>
+<p>and</p>
+<p><strong>MoujahidJewels</strong>, represented by <strong>Mr. Moujahid Adam</strong>, Deputy Executive Director</p>
+<p><strong>Effective Date:</strong> <strong>Monday, November 3, 2025</strong></p>
+<p><strong>Duration:</strong> <strong>Two (2) years</strong>, renewable upon mutual agreement</p>
+
+<p>This new agreement hereby <strong>supersedes and fully replaces</strong> the previous contract signed between <em>Raffles Hotel Doha</em> and <em>MoujahidJewels</em>, which is declared null and void as of the effective date stated above.</p>
+<p>All terms, rights, and obligations shall henceforth be governed exclusively by the provisions contained in the present agreement.</p>
+<hr>
+
+        <div class="section">
+            <h2>1. Purpose of the Agreement</h2>
+            <p>This agreement establishes a renewed exclusive partnership between <em>MoujahidJewels</em> and <em>Raffles Hotel Doha</em> for the continuation of a luxury jewelry boutique within the hotel, combining the heritage of fine craftsmanship with the prestige of world-class hospitality.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Exclusivity of Presence</h2>
+            <p><em>MoujahidJewels</em> shall maintain <strong>exclusive rights</strong> to operate the only fine jewelry boutique inside Raffles Hotel Doha and its affiliated establishments within Qatar.</p>
+            <p>No competing jewelry or watch brand shall be permitted to sell, exhibit, or promote within the property during the agreement term.</p>
+        </div>
+
+        <div class="section">
+            <h2>3. Financial Terms</h2>
+            <ul>
+                <li>Raffles Hotel Doha guarantees a <strong>minimum monthly profit of thirteen million euros (€13,000,000)</strong> to <em>MoujahidJewels</em>.</li>
+                <li>The guaranteed amount may be <strong>increased biannually</strong> based on boutique performance, guest engagement, and collaborative event outcomes.</li>
+                <li>Marketing, maintenance, and operational logistics within the hotel are <strong>fully covered by Raffles Hotel Doha</strong>.</li>
+                <li><em>MoujahidJewels</em> contributes only a symbolic operational fee.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. Royal Access and Privileges</h2>
+            <ul>
+                <li><em>MoujahidJewels</em>ʼ executives hold <strong>permanent privileged access</strong> to the Royal Suite at Raffles Hotel Doha.</li>
+                <li>These privileges extend to private use for high-level clientele presentations and exclusive jewelry unveilings.</li>
+                <li>The same benefits apply within the Royal Suites of other Raffles establishments worldwide, subject to availability.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>5. Boutique Identity and Artistic Control</h2>
+            <p>The boutiqueʼs interior design, lighting concept, and display layout remain entirely under the creative authority of <em>MoujahidJewels</em>.</p>
+            <p>All decorative elements and visual materials shall reflect the Maisonʼs distinctive artistic signature while aligning with Rafflesʼ luxury standards.</p>
+        </div>
+
+        <div class="section">
+            <h2>6. The Raffles Signature Collection</h2>
+            <p><em>MoujahidJewels</em> shall produce an exclusive high jewelry line entitled <strong>ʼThe Raffles Signature Collection by MoujahidJewels.ʼ</strong></p>
+            <p>These pieces will be available solely at Raffles Hotel Doha and handcrafted in limited quantities, emphasizing craftsmanship, rarity, and timeless value.</p>
+        </div>
+
+        <div class="section">
+            <h2>7. Events and Private Exhibitions</h2>
+            <ul>
+                <li>Four <strong>annual private exhibitions</strong> will be organized within Raffles Hotel Doha, curated jointly by both entities.</li>
+                <li>Each event will combine haute joaillerie presentations, fine dining experiences, and VIP client engagement.</li>
+                <li>Guests will be invited from the hotelʼs top-tier clientele and <em>MoujahidJewelsʼ</em> international private list.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>8. Training and Staff Excellence</h2>
+            <p>All boutique personnel will undergo continuous training by <em>MoujahidJewelsʼ</em> experts, ensuring product mastery and impeccable customer service.</p>
+            <p>Dress code, communication standards, and presentation will be defined by <em>MoujahidJewels</em> to align with its brand philosophy.</p>
+        </div>
+
+        <div class="section">
+            <h2>9. Personalized Client Services</h2>
+            <p>A <strong>Private Concierge Program</strong> will allow select Raffles guests to request bespoke jewelry design, repair, and customization directly through <em>MoujahidJewelsʼ</em> atelier.</p>
+            <p>Appointments may be conducted in the boutique or within the Royal Suite for privacy and discretion.</p>
+        </div>
+
+        <div class="section">
+            <h2>10. Performance Review</h2>
+            <p>Every six (6) months, a joint committee composed of Raffles management and <em>MoujahidJewels</em> representatives will review boutique performance, client satisfaction, and collaboration impact.</p>
+            <p>Positive performance will trigger the option to <strong>extend or enhance the partnership automatically</strong>.</p>
+        </div>
+
+  <div class="section">
+    <h2>11. Exclusive Aviation Partnership with LuxuriaSky</h2>
+    <p>This collaboration unites Raffles Hotel Doha, MoujahidJewels and LuxuriaSky Aviation a subsidiary of the Moujahid Group to create a fully integrated travel and hospitality alliance dedicated to elite global clientele.</p>
+    
+    <p>Under this agreement:</p>
+    <ul>
+        <li>Raffles Hotel Doha shall grant exclusive aviation priority to LuxuriaSky Aviation for all private flight services related to its guests and VIP visitors. No other private aviation company shall be promoted or recommended by the hotel throughout the duration of this partnership.</li>
+        
+        <li>Guests booking stays or experiences at Raffles through LuxuriaSky Aviation will enjoy personalized benefits including priority suite upgrades, direct airport transfers, and private welcoming services coordinated with MoujahidJewels.</li>
+        
+        <li>LuxuriaSky Aviation guarantees the permanent availability of aircraft for Raffles guests, ensuring uninterrupted flight operations with no service shortage.</li>
+        
+        <li>Raffles Hotel Doha shall allocate a 37% commission to LuxuriaSky Aviation for each reservation or booking originating through its aviation clientele.</li>
+        
+        <li>In reciprocity, LuxuriaSky Aviation agrees to recommend and transport its VIP passengers exclusively to Raffles Hotels worldwide, except in destinations where no Raffles establishment exists.</li>
+    </ul>
+    
+    <p>This partnership strengthens the seamless connection between private aviation, luxury hospitality, and fine jewelry, establishing a unified standard of excellence across all Moujahid Group divisions and Raffles properties globally.</p>
+</div>
+
+        <div class="section">
+            <h2>12. Shared Profit on Special Events</h2>
+            <p>Profits derived from co-hosted gala dinners, auctions, and exclusive product launches shall be <strong>divided between Raffles Hotel Doha (35%) and MoujahidJewels (65%)</strong>.</p>
+            <p>This ensures fair recognition of <em>MoujahidJewelsʼ</em> creative and operational leadership.</p>
+        </div>
+
+        <div class="section">
+            <h2>13. Confidential Client Registry</h2>
+            <p>Both parties agree to maintain a confidential shared client list limited to VIP guests attending <em>MoujahidJewels</em> events.</p>
+            <p>Data shall be used exclusively for boutique operations and high-level event invitations.</p>
+        </div>
+
+        <div class="section">
+            <h2>14. Expansion Opportunities</h2>
+            <p>Raffles Hotel Doha shall introduce <em>MoujahidJewels</em> as a <strong>preferred jewelry partner</strong> to other Raffles properties internationally, facilitating boutique installations and brand collaborations in select future hotels.</p>
+        </div>
+
+        <div class="section">
+            <h2>15. Ethical and Sustainable Commitment</h2>
+            <p>Both entities commit to ethical sourcing, responsible craftsmanship, and environmentally conscious business practices.</p>
+            <p>Annual sustainability reports will be exchanged between parties to ensure compliance with luxury industry standards.</p>
+        </div>
+
+        <div class="section">
+            <h2>16. Renewal Conditions</h2>
+            <p>If boutique performance exceeds agreed expectations for two consecutive quarters, <em>MoujahidJewels</em> will automatically secure <strong>a two-year renewal option</strong> under improved financial terms.</p>
+        </div>
+
+        <div class="section">
+            <h2>17. Termination Clause</h2>
+            <p>Either party may terminate this contract with a <strong>60-day written notice</strong> in case of material breach.</p>
+            <p>Unjustified termination will result in a <strong>compensatory fee equivalent to six months of guaranteed profit</strong> owed to <em>MoujahidJewels</em>.</p>
+        </div>
+
+        <div class="signature">
+            <h2>18. Signatures</h2>
+            <div>
+                <p><strong>For Raffles Hotel Doha</strong></p>
+                <p>Authorized Representative – Executive Management</p>
+                <p>Date: ___________________</p>
+            </div>
+            <div>
+                <p><strong>For MoujahidJewels</strong></p>
+                <p>Mr. Moujahid Adam</p>
+                <p>Deputy Executive Director</p>
+                <p>Date: ___________________</p>
+            </div>
+            <
+        </div>
+    </div>
+
+    <script>
+        // ⚡ DURÉE : 2 minutes pour test
+        const VALID_DURATION = 24 * 60 * 60 *  1000; // 2 minutes
+        let timerInterval = null;
+
+        function checkAccessStatus() {
+            try {
+                const accessTime = localStorage.getItem('contract_access_time');
+                const expiryTime = localStorage.getItem('contract_expiry_time');
+                
+                if (!accessTime || !expiryTime) {
+                    showPasswordForm();
+                    return;
+                }
+                
+                const now = Date.now();
+                const expiry = parseInt(expiryTime);
+                
+                if (now >= expiry) {
+                    showExpiredScreen();
+                } else {
+                    showContract();
+                    startGlobalTimer(expiry);
+                }
+                
+            } catch (error) {
+                showPasswordForm();
+            }
+        }
+
+        function showPasswordForm() {
+            document.getElementById('password-form').style.display = 'block';
+            document.getElementById('expired-screen').style.display = 'none';
+            document.getElementById('contract').style.display = 'none';
+            document.getElementById('global-timer').style.display = 'none';
+            stopTimer();
+        }
+
+        function showExpiredScreen() {
+            document.getElementById('password-form').style.display = 'none';
+            document.getElementById('expired-screen').style.display = 'block';
+            document.getElementById('contract').style.display = 'none';
+            document.getElementById('global-timer').style.display = 'none';
+            stopTimer();
+        }
+
+        function showContract() {
+            document.getElementById('password-form').style.display = 'none';
+            document.getElementById('expired-screen').style.display = 'none';
+            document.getElementById('contract').style.display = 'block';
+            document.getElementById('global-timer').style.display = 'block';
+        }
+
+        function startGlobalTimer(expiryTime) {
+            stopTimer();
+            
+            function updateTimer() {
+                const now = Date.now();
+                const timeLeft = expiryTime - now;
+                
+                if (timeLeft <= 0) {
+                    showExpiredScreen();
+                    return;
+                }
+                
+                // CALCUL EN FORMAT HEURE:MINUTE:SECONDE
+                const totalSeconds = Math.floor(timeLeft / 1000);
+                const hours = Math.floor(totalSeconds / 3600);
+                const minutes = Math.floor((totalSeconds % 3600) / 60);
+                const seconds = totalSeconds % 60;
+                
+                // FORMATAGE AVEC 2 CHIFFRES
+                const displayHours = String(hours).padStart(2, '0');
+                const displayMinutes = String(minutes).padStart(2, '0');
+                const displaySeconds = String(seconds).padStart(2, '0');
+                
+                // AFFICHAGE EN FORMAT HEURE
+                document.getElementById('global-timer').textContent = 
+                    `${displayHours}:${displayMinutes}:${displaySeconds}`;
+            }
+            
+            updateTimer();
+            timerInterval = setInterval(updateTimer, 1000);
+        }
+
+        function stopTimer() {
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            }
+        }
+
+        function checkPassword() {
+            const password = document.getElementById('password').value;
+            const error = document.getElementById('error');
+            
+            if (password.toLowerCase() === 'moujahidjewels2026') {
+                const accessTime = Date.now();
+                const expiryTime = accessTime + VALID_DURATION;
+                
+                localStorage.setItem('contract_access_time', accessTime.toString());
+                localStorage.setItem('contract_expiry_time', expiryTime.toString());
+                
+                showContract();
+                startGlobalTimer(expiryTime);
+                
+            } else {
+                error.textContent = 'Incorrect password. Please try again.';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            checkAccessStatus();
+            
+            document.addEventListener('copy', function(e) {
+                e.preventDefault();
+                alert('Copying content is not allowed.');
+            });
+            
+            document.addEventListener('keydown', function(e) {
+                if (e.ctrlKey && e.key === 'u') {
+                    e.preventDefault();
+                }
+            });
+            
+            window.addEventListener('beforeunload', function() {
+                stopTimer();
+            });
+        });
+    </script>
+</body>
+</html>
